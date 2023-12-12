@@ -1,6 +1,6 @@
 # The-Beluan-Taurikins
 
-the beluan ( "beastly" in latin)  taurikins is a species of sapient bipedal space foxes. they are known for their positive manners, slyness, resourcefulness and good literature skills, a far cry from their quadruped centaur-fox like cousins.
+the beluan ( "beastly" in latin )  taurikins is a species of sapient bipedal space foxes. they are known for their positive manners, slyness, resourcefulness and good literature skills, a far cry from their quadruped centaur-fox like cousins.
 
 cultural theme: latin in general that includes ancient latin, french, portugese, italian, romanian and spanish.
 
@@ -10,7 +10,8 @@ appearance: anthropomorphic foxes with plantigrade legs, both their fur and hair
 
 
 things the project definitley needs
-- 0% revisioned armor sets, cuz the armor doesnt make any sense
+- 0% suitable racial themed armor sets
+- 0% making functional beluan-taurikin npcs
 - 0% npc settlements
 - 0% a custom ship for them
 - 0% their own themed furniture and stuffs present for crafting or their settlements
