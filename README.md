@@ -17,7 +17,7 @@ things the project definitley needs
 - 0% their own themed furniture and stuffs present for crafting or their settlements
 - 0% unique codexs, due to how most of them are good with literature
 - 0% race trait support
-- 0% more planet info support, to know there are any beluan taurikin inhabitants of the planet
+- 0% more planet info support, to know if there are any beluan taurikin inhabitants while reading planet's descriptions
 
 progress of the project: 0%
 
