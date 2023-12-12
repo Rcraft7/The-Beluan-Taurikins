@@ -21,7 +21,7 @@ things the project definitley needs
 progress of the project: 0%
 
 things the project probably maybe needs:
-X- a hostile faction
-X- unique weapons
-X- an fu patch with their settlements spawning on fu planets
-X- a unique intro mission
+- [X] a hostile faction
+- [X] unique weapons
+- [X] an fu patch with their settlements spawning on fu planets
+- [X] a unique intro mission
