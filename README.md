@@ -27,3 +27,4 @@ things the project probably maybe needs:
 - ⁂ a unique intro mission
  
 "⁂" = not implemented yet
+"∫" = implemented
