@@ -1,4 +1,5 @@
 # The-Beluan-Taurikins
+# Alpha Build 12_12_2023
 
 the beluan ( "beastly" in latin )  taurikins is a species of sapient bipedal space foxes. they are known for their positive manners, slyness, resourcefulness and good literature skills, a far cry from their quadruped centaur-fox like cousins.
 
