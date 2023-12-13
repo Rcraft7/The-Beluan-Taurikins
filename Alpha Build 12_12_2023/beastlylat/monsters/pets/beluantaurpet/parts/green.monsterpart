@@ -1,0 +1,8 @@
+{
+  "name" : "green",
+  "category" : "beluantaurpet",
+  "type" : "body",
+  "frames" : {
+    "body" : "green.png"
+  }
+}

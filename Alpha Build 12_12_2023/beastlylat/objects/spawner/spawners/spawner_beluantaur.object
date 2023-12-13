@@ -1,0 +1,48 @@
+{
+  "objectName" : "spawnerbeluantaur",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "Spawn your very own beluan-taurikin villager Simply place and then leave the planet or ship. Once you return there will be an NPC.",
+  "shortdescription" : "Beluan-Taurikin Spawner",
+  "race" : "taurikin",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : 100,
+  "apexDescription" : "Maybe I can reverse engineer this.",
+  "avianDescription" : "What could I possibly want with taurikins?",
+  "floranDescription" : "Floran not sssure if want to sssummon taurikins.",
+  "glitchDescription" : "Concern. These were all meant to be destroyed.",
+  "humanDescription" : "What could I possibly want with taurikins?",
+  "hylotlDescription" : "A taurikin spawner. These shouldn't exist.",
+  "taurikinDescription" : "Woo.",
+  "inventoryIcon" : "defaulticon.png",
+  "orientations" : [
+    {
+      "image" : "spawner_beluantaur.png",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "background" ]
+    }
+  ],
+  "scripts" : [ "/objects/spawner/spawners/spawner.lua" ],
+  "scriptDelta" : 1,
+  //6000,
+  "animation" : "/objects/spawner/spawners/beluantaur.animation",
+  "animationParts" : {
+    "switch" : "spawner_beluantaur.png"
+  },
+  "animationPosition" : [-8, 0],
+  "inputNodes" : [ ],
+  "outputNodes" : [ ],
+  "spawner" : {
+    "searchRadius" : 32.0,
+    "npcSpeciesOptions" : [ "beluantaur" ],
+    "npcTypeOptions" : [ "villager" ],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : [ ]
+      }
+    ]
+  }
+}

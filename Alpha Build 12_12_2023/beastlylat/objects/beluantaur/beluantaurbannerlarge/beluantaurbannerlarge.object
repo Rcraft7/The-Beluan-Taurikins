@@ -1,0 +1,29 @@
+{
+  "objectName" : "beluantaurbannerlarge",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "printable" : false,
+  "description" : "A large Beluan Taurikin wallbanner from uhhh i dont know about this.",
+  "shortdescription" : "Large Beluan Taurikin Wall Banner",
+  "race" : "taurikin",
+  "apexDescription" : "This banner is large...",
+  "avianDescription" : "A large banner",
+  "floranDescription" : "Floran likesss thisss.",
+  "glitchDescription" : "Charmed. A large Taurikin banner, wait i disagree for a second this one feels different",
+  "humanDescription" : "The Taurikin banner quite lovely.",
+  "hylotlDescription" : "The banner is just lovely.",
+  "novakidDescription" : "This would look great in my house.",
+  "taurikinDescription" : "Can't Belive it! this actually worked?",  
+  "inventoryIcon" : "beluantaurbannerlargeicon.png",
+  "orientations" : [
+    {
+      "image" : "beluantaurbannerlarge.png:<color>",
+      "imagePosition" : [2, -2],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : []
+    }
+  ]
+}

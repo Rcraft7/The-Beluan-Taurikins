@@ -1,0 +1,14 @@
+[
+  {
+    "op": "add",
+    "path": "/beluantaurStarterTreasure",
+    "value": [[0, {
+      "fill" : [
+        {"pool" : "starterTreasure"},
+        {"item" : [ "beluantaurlamp1", 10 ]},		
+        {"item" : [ "beluantaurprotectoratechest" ]},
+        {"item" : [ "beluantaurprotectoratelegs" ]}
+      ]
+    }]]
+  }
+]

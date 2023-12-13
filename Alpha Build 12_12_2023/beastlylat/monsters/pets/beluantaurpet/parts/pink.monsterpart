@@ -1,0 +1,8 @@
+{
+  "name" : "pink",
+  "category" : "beluantaurpet",
+  "type" : "body",
+  "frames" : {
+    "body" : "pink.png"
+  }
+}

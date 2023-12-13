@@ -1,0 +1,46 @@
+{
+  "objectName" : "flagbeluantaur",
+  "colonyTags" : ["beluantaur"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "teleporter",
+  "category" : "teleportMarker",
+  "price" : 70,
+  "radioMessagesOnPickup" : [ "pickupflag" ],
+  
+  "description" : "The flag of the Protectorate. Use ^green;[E]^white; to bookmark a teleportation location.",
+  "shortdescription" : "Beluan-Taurikin Flag",
+  "race" : "taurikin",
+  "apexDescription" : "A Beluan-Taurikin flag, that barely has any difference? I mean i can use this as a waypoint for teleportation.",
+  "avianDescription" : "This Beluan-Taurikin flag can be bookmarked as a destination for my ship teleporter, it's crazy how the AI can distinguish them when both flags looks the same.",
+  "floranDescription" : "Taurikin flag makess good point to teleport back to ussing teleporter, wwait a minute ssomething isn't riight",
+  "glitchDescription" : "Observant. A small locator module attached to this Taurikin flag allows it to be bookmarked for teleportation, but i got an uneasy feeling about this flag.",
+  "humanDescription" : "Huh?",
+  "hylotlDescription" : "This Taurikin flag can act as a way point, even tho i feels a little suspicious about this one but atleast this can still enable me to return to this point using a teleporter.",
+  "novakidDescription" : "I can bookmark this Taurikin flag for quick teleportin, but something feels a little fishy about this darn flag.",
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/destinationonly.config",
+  "inventoryIcon" : "flagbeluantauricon.png",
+  "orientations" : [
+    {
+      "image" : "flagbeluantaur.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [-17, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "flagbeluantaur.png:<color>.<frame>",
+      "direction" : "right",
+      "imagePosition" : [1, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+  //"soundEffect" : "/sfx/objects/flag_flap_loop.ogg"
+}

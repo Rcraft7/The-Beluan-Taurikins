@@ -1,0 +1,21 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "crewSize" : 6
+    }
+  },
+  "backgroundOverlays" : [
+    {
+      "image" : "beluantaurT5.png",
+      "position" : [8.64, 16.74],
+      "fullbright" : true
+    },
+    {
+      "image" : "beluantaurT5lit.png",
+      "position" : [8.64, 16.74]
+    }
+  ],
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "beluantaurT5blocks.png"
+}

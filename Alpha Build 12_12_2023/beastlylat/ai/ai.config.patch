@@ -1,0 +1,10 @@
+[{
+		"op" : "add",
+		"path" : "/species/beluantaur",
+		"value" : {
+			"aiFrames" : "beluantaurAI.png",
+			"portraitFrames" : "portraits/beluantaurportrait.png",
+			"staticFrames" : "staticbeluantaur.png"	
+		}
+	}
+]

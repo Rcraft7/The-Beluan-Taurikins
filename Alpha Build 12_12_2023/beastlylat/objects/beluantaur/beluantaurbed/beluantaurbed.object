@@ -1,0 +1,40 @@
+{
+  "objectName" : "beluantaurbed",
+  "colonyTags" : ["beluantaur"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A bed stolen from Protectorate storage",
+  "shortdescription" : "Protectorate Bed",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 45,
+  "apexDescription" : "A simple metal bed, nice and comfortable.",
+  "avianDescription" : "A metal frame and a comfortable mattress. What more could you need?",
+  "floranDescription" : "Floran rarely ssleep in ssuch nice bed.",
+  "glitchDescription" : "Drowsy. My power levels are low. This bed looks inviting.",
+  "humanDescription" : "Your basic, comfy bed.",
+  "hylotlDescription" : "A good place to close one's eyes.",
+  "novakidDescription" : "A decent place to get some shut-eye.",
+  "inventoryIcon" : "beluantaurbedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "beluantaurbed.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-9, 15],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/beluantaur/beluantaurbed/beluantaurbedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ]
+}

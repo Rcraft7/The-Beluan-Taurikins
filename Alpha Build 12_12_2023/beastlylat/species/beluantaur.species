@@ -1,0 +1,381 @@
+{
+  "kind" : "beluantaur",
+	"charCreationTooltip" : {
+	"title" : "beluan taurikin",
+	"subTitle" : "O2",
+	"description" : "The Beluan-Taurikins is a species of sapient bipedal space foxes. they are known for their positive manners, slyness, resourcefulness and good literature skills, a far cry from their quadruped centaur-fox like cousins."
+  },
+  "nameGen" : [ "/species/beluantaurmalenamegen.config:names", "/species/beluantaurfemalenamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/beluantaurhurt_female1.ogg", "/sfx/humanoid/beluantaurhurt_female1.ogg" ],
+  "charGenTextLabels" : [ "Skin colour", "Hair style", "Shirt", "Legwear", "Fur colour", "Hair colour", "Shirt colour", "Legwear colour", "BeluanTaurikin", "Personality" ],
+  "skull" : "/humanoid/beluantaur/dead.png",
+  "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=e2c295?replace=31a6ffFF=c88a4f",
+  "defaultBlueprints" : {
+    "tier1" : [
+	
+  // Empty Hands
+      { "item" : "flagbeluantaur" },
+	    
+// Anvil
+      { "item" : "beluantaurtier1head" },
+      { "item" : "beluantaurtier1chest" },
+      { "item" : "beluantaurtier1pants" },
+      { "item" : "beluantaurtier2head" },
+      { "item" : "beluantaurtier2chest" },
+      { "item" : "beluantaurtier2pants" },
+      { "item" : "beluantaursword" },
+      { "item" : "ironshortsword" },
+      { "item" : "ironbroadsword" },
+      { "item" : "tungstenaxe" },
+      { "item" : "tungstenhammer" },
+// Anvil2
+      { "item" : "beluantaurtier3head" },
+      { "item" : "beluantaurtier3chest" },
+      { "item" : "beluantaurtier3pants" },
+      { "item" : "beluantaurtier4head" },
+      { "item" : "beluantaurtier4chest" },
+      { "item" : "beluantaurtier4pants" },
+      { "item" : "titaniumdagger" },
+      { "item" : "titaniumspear" },
+      { "item" : "durasteelbroadsword" },
+      { "item" : "durasteelshortsword" },
+// Anvil3
+      { "item" : "beluantaurtier5ahead" },
+      { "item" : "beluantaurtier5achest" },
+      { "item" : "beluantaurtier5apants" },
+      { "item" : "beluantaurtier6ahead" },
+      { "item" : "beluantaurtier6achest" },
+      { "item" : "beluantaurtier6apants" },
+      { "item" : "beluantaurtier5mhead" },
+      { "item" : "beluantaurtier5mchest" },
+      { "item" : "beluantaurtier5mpants" },
+      { "item" : "beluantaurtier6mhead" },
+      { "item" : "beluantaurtier6mchest" },
+      { "item" : "beluantaurtier6mpants" },
+      { "item" : "beluantaurtier5shead" },
+      { "item" : "beluantaurtier5schest" },
+      { "item" : "beluantaurtier5spants" },
+      { "item" : "beluantaurtier6shead" },
+      { "item" : "beluantaurtier6schest" },
+      { "item" : "beluantaurtier6spants" },
+      { "item" : "aegisaltpistol" },
+      { "item" : "aegisaltbow" },
+      { "item" : "feroziumwand" },
+      { "item" : "feroziumstaff" },
+      { "item" : "violiumshortsword" },
+      { "item" : "violiumbroadsword" },
+// Furniture Table 2
+      { "item" : "beluantaurstoragelocker" },
+      { "item" : "beluantaurshipdoor" },
+      { "item" : "beluantaurshiphatch" },
+// Spinning Wheel
+      { "item" : "beluantauroutfit1chest" },
+      { "item" : "beluantauroutfit1legs" },
+      { "item" : "beluantauroutfit2chest" },
+      { "item" : "beluantauroutfit2legs" },
+      { "item" : "beluantauroutfit3chest" },
+      { "item" : "beluantauroutfit3legs" },
+      { "item" : "beluantauroutfit4chest" },
+      { "item" : "beluantauroutfit4legs" },
+	  
+      { "item" : "beluantaurnudehead" },
+      { "item" : "beluantaurnudechest" },
+      { "item" : "beluantaurnudelegs" },
+	  
+	  
+// Special
+      { "item" : "beluantaurmerchant" }  
+	  
+	  ]
+  },
+  
+  "altOptionAsUndyColor" : true,
+  "headOptionAsHairColor" : true,
+  "altOptionAsHairColor" : true,
+  "hairColorAsBodySubColor" : true,
+  "genders" : [
+    {
+       "name" : "male",
+      "image" : "/interface/title/beluantaurmaleico.png",
+      "characterImage" : "/interface/title/beluantaurmale.png",
+      "hair" : [ "1m", "2m", "3m", "4m", "5m", "6m", "7m", "8m" ],
+      "shirt" : [ "beluantauroutfit1chest", "beluantauroutfit2chest", "beluantauroutfit3chest", "beluantauroutfit4chest", "beluantaurprotectoratechest" ],
+      "pants" : [ "beluantauroutfit1legs", "beluantauroutfit2legs", "beluantauroutfit3legs", "beluantauroutfit4legs", "beluantaurprotectoratelegs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/beluantaurfemico.png",
+      "characterImage" : "/interface/title/beluantaurfemale.png",
+      "hair" : [ "1f", "2f", "3f", "4f", "5f", "6f", "7f", "8f", "9f", "10f", "11f" ],
+      "shirt" : [ "beluantauroutfit1chest", "beluantauroutfit2chest", "beluantauroutfit3chest", "beluantauroutfit4chest", "beluantaurprotectoratechest" ],
+      "pants" : [ "beluantauroutfit1legs", "beluantauroutfit2legs", "beluantauroutfit3legs", "beluantauroutfit4legs", "beluantaurprotectoratelegs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    }
+  ],
+  "bodyColor" : [//Skin
+    { "ffe2c5" : "fae8e7", "ffc181" : "fbd6c9", "d39c6c" : "e4ad9f", "c7815b" : "c7907b" }, //rosey pale
+    { "ffe2c5" : "f9eae9", "ffc181" : "f5d6c1", "d39c6c" : "dcb79c", "c7815b" : "be947e" }, //pale
+    { "ffe2c5" : "fcddc5", "ffc181" : "facba1", "d39c6c" : "d7a984", "c7815b" : "bb8467" }, //light
+    { "ffe2c5" : "ffd1a2", "ffc181" : "ffc181", "d39c6c" : "d39c6c", "c7815b" : "b97551" }, //lightish
+    { "ffe2c5" : "efcd97", "ffc181" : "e9b768", "d39c6c" : "c18f54", "c7815b" : "a2683d" }, //tan
+    { "ffe2c5" : "cf9b51", "ffc181" : "b6843e", "d39c6c" : "8e6338", "c7815b" : "6e4b2b" }, //cool tan
+    { "ffe2c5" : "dba277", "ffc181" : "c88959", "d39c6c" : "9e6a4d", "c7815b" : "784930" }, //deep tan
+    { "ffe2c5" : "db9877", "ffc181" : "c87e59", "d39c6c" : "9e624d", "c7815b" : "784230" }, //warm tan
+    { "ffe2c5" : "b88c6a", "ffc181" : "a77752", "d39c6c" : "83573f", "c7815b" : "5c3827" }, //coco
+    { "ffe2c5" : "95765d", "ffc181" : "86644a", "d39c6c" : "684431", "c7815b" : "40271d" }, //chocolate
+    { "ffe2c5" : "685b52", "ffc181" : "624f42", "d39c6c" : "48352c", "c7815b" : "35251e" }, //ebony
+    { "ffe2c5" : "594c46", "ffc181" : "493c35", "d39c6c" : "342621", "c7815b" : "1c130f" } //deep ebony
+  ],
+  "undyColor" : [ //Fur
+  //NAT WHITE 1
+    { "f4907f" : "fff8ed", "dc1f00" : "ffe9cd", "be1b00" : "d3baa2", "951500" : "aa9585", "89a1d9" : "dcc19f", "596fa3" : "b8997b", "3a4f73" : "937a67" },
+  //NAT WHITE 2
+    { "f4907f" : "dfcdbd", "dc1f00" : "bfa996", "be1b00" : "9c8375", "951500" : "776259", "89a1d9" : "9b836e", "596fa3" : "7d6453", "3a4f73" : "5f4a3f" },
+  //NAT WHITE 3
+    { "f4907f" : "af9e97", "dc1f00" : "847169", "be1b00" : "6d5a57", "951500" : "534141", "89a1d9" : "62534d", "596fa3" : "4f403e", "3a4f73" : "3c2e2e" },
+  //NAT WHITE 4
+    { "f4907f" : "837374", "dc1f00" : "665455", "be1b00" : "4b393d", "951500" : "34262a", "89a1d9" : "4c3b40", "596fa3" : "35262d", "3a4f73" : "24171c" },
+
+  //NAT SILVER 1
+    { "f4907f" : "f3f4f9", "dc1f00" : "dee0ee", "be1b00" : "b2b6c2", "951500" : "91949d", "89a1d9" : "b3b6c7", "596fa3" : "8f94a3", "3a4f73" : "767a84" },
+  //NAT SILVER 2
+    { "f4907f" : "d4d1da", "dc1f00" : "b0aabd", "be1b00" : "8b8698", "951500" : "686673", "89a1d9" : "878094", "596fa3" : "686275", "3a4f73" : "4d4a58" },
+  //NAT SILVER 3
+    { "f4907f" : "b0b1be", "dc1f00" : "797a8d", "be1b00" : "626373", "951500" : "494a57", "89a1d9" : "575868", "596fa3" : "464753", "3a4f73" : "33343c" },
+  //NAT SILVER 4
+    { "f4907f" : "716f76", "dc1f00" : "55525a", "be1b00" : "3a3840", "951500" : "26252b", "89a1d9" : "3e3944", "596fa3" : "27242e", "3a4f73" : "18151c" },
+
+  //NAT FOX 1
+    { "f4907f" : "ffd7be", "dc1f00" : "e8a27c", "be1b00" : "c47b65", "951500" : "905248", "89a1d9" : "c08362", "596fa3" : "975843", "3a4f73" : "6b372d" },
+  //NAT FOX 2
+    { "f4907f" : "eea788", "dc1f00" : "d87e56", "be1b00" : "b65b47", "951500" : "8f423a", "89a1d9" : "ac6341", "596fa3" : "924835", "3a4f73" : "73332c" },
+  //NAT FOX 3
+    { "f4907f" : "ea8d69", "dc1f00" : "c95f36", "be1b00" : "aa402f", "951500" : "852a27", "89a1d9" : "9b492a", "596fa3" : "833124", "3a4f73" : "67201e" },
+  //NAT FOX 4
+    { "f4907f" : "a97160", "dc1f00" : "824837", "be1b00" : "65302a", "951500" : "461e1e", "89a1d9" : "5c3227", "596fa3" : "45201d", "3a4f73" : "301313" },
+
+  //NAT YELLOW 1
+    { "f4907f" : "fff4dd", "dc1f00" : "ffdea1", "be1b00" : "d7ae85", "951500" : "b18c73", "89a1d9" : "cfb484", "596fa3" : "ae8e6f", "3a4f73" : "907360" },
+  //NAT YELLOW 2
+    { "f4907f" : "fedea3", "dc1f00" : "f3c36b", "be1b00" : "d1985e", "951500" : "ad7855", "89a1d9" : "c39d5a", "596fa3" : "a77a4e", "3a4f73" : "8b6147" },
+  //NAT YELLOW 3
+    { "f4907f" : "f3be5f", "dc1f00" : "d89926", "be1b00" : "b66d22", "951500" : "8e4a1d", "89a1d9" : "a6751e", "596fa3" : "8d531a", "3a4f73" : "6e3816" },
+  //NAT YELLOW 4
+    { "f4907f" : "a18c6e", "dc1f00" : "856c47", "be1b00" : "684c35", "951500" : "4c3326", "89a1d9" : "644f36", "596fa3" : "4d3527", "3a4f73" : "38221a" },
+
+  //RED 1
+    { "f4907f" : "e78484", "dc1f00" : "e06767", "be1b00" : "ca4848", "951500" : "a72323", "89a1d9" : "c13c3c", "596fa3" : "a52323", "3a4f73" : "7e1212" },
+  //RED 2
+    { "f4907f" : "d87a7a", "dc1f00" : "c53939", "be1b00" : "a83131", "951500" : "852727", "89a1d9" : "982c2c", "596fa3" : "812626", "3a4f73" : "661e1e" },
+  //RED 3
+    { "f4907f" : "b35c5c", "dc1f00" : "ab2a2a", "be1b00" : "871919", "951500" : "640d0d", "89a1d9" : "7e1b1b", "596fa3" : "630f0f", "3a4f73" : "480606" },
+
+  //ORANGE 1
+    { "f4907f" : "faac71", "dc1f00" : "f79950", "be1b00" : "e37d2f", "951500" : "c05a09", "89a1d9" : "da7122", "596fa3" : "be580a", "3a4f73" : "903e00" },
+  //ORANGE 2
+    { "f4907f" : "ffa661", "dc1f00" : "f87108", "be1b00" : "d05c05", "951500" : "a14500", "89a1d9" : "bb5202", "596fa3" : "8e3800", "3a4f73" : "6f2500" },	
+  //ORANGE 3
+    { "f4907f" : "e5741f", "dc1f00" : "cc5d09", "be1b00" : "a04300", "951500" : "712f00", "89a1d9" : "973f02", "596fa3" : "723000", "3a4f73" : "4e2100" },
+
+  //YELLOW 1
+    { "f4907f" : "fce385", "dc1f00" : "f6d250", "be1b00" : "dbb223", "951500" : "bf8e0b", "89a1d9" : "d9a723", "596fa3" : "bd8b0a", "3a4f73" : "906900" },
+  //YELLOW 2
+    { "f4907f" : "f4cc5e", "dc1f00" : "e1b12e", "be1b00" : "b48d24", "951500" : "8f651c", "89a1d9" : "a47620", "596fa3" : "8a621c", "3a4f73" : "6e4e16" },	
+  //YELLOW 3
+    { "f4907f" : "e4b42e", "dc1f00" : "c8960d", "be1b00" : "9f7400", "951500" : "6f4800", "89a1d9" : "946404", "596fa3" : "704900", "3a4f73" : "4e3300" },	
+
+  //LIME 1
+    { "f4907f" : "e4f0a0", "dc1f00" : "cde067", "be1b00" : "a7c01d", "951500" : "92a723", "89a1d9" : "adc13c", "596fa3" : "91a523", "3a4f73" : "6e7e12" },
+  //LIME 2
+    { "f4907f" : "d1e171", "dc1f00" : "b0cb24", "be1b00" : "93a81a", "951500" : "6e7e0e", "89a1d9" : "829514", "596fa3" : "697a0d", "3a4f73" : "4c5904" },
+  //LIME 3
+    { "f4907f" : "becb75", "dc1f00" : "96ab2a", "be1b00" : "768719", "951500" : "57640d", "89a1d9" : "707e1b", "596fa3" : "56630f", "3a4f73" : "3e4806" },
+
+  //GREEN 1
+    { "f4907f" : "8fdc9c", "dc1f00" : "74d284", "be1b00" : "56bb67", "951500" : "329843", "89a1d9" : "4bb25c", "596fa3" : "319642", "3a4f73" : "1e722c" },
+  //GREEN 2
+    { "f4907f" : "84cd90", "dc1f00" : "49b55b", "be1b00" : "3e9a4d", "951500" : "317a3d", "89a1d9" : "388c46", "596fa3" : "30763c", "3a4f73" : "265e2f" },
+  //GREEN 3
+    { "f4907f" : "4eb660", "dc1f00" : "399d4a", "be1b00" : "257a33", "951500" : "165921", "89a1d9" : "267333", "596fa3" : "185823", "3a4f73" : "0d4115" },
+
+  //TEAL 1
+    { "f4907f" : "90fefa", "dc1f00" : "65f2ec", "be1b00" : "3ad1c8", "951500" : "11aaa1", "89a1d9" : "33cec5", "596fa3" : "16ada5", "3a4f73" : "028079" },
+  //TEAL 2
+    { "f4907f" : "79e7e0", "dc1f00" : "2dd1c9", "be1b00" : "23afa7", "951500" : "18867f", "89a1d9" : "1d9c95", "596fa3" : "127972", "3a4f73" : "0d625d" },
+  //TEAL 3
+    { "f4907f" : "48c9c2", "dc1f00" : "2aaba4", "be1b00" : "198780", "951500" : "0d645e", "89a1d9" : "1b7e79", "596fa3" : "0f635e", "3a4f73" : "064844" },
+
+  //CERULEAN 1
+    { "f4907f" : "8dddf3", "dc1f00" : "6dcce6", "be1b00" : "41a8c5", "951500" : "2286a2", "89a1d9" : "3aa3bf", "596fa3" : "2387a3", "3a4f73" : "16677c" },
+  //CERULEAN 2
+    { "f4907f" : "7cc3eb", "dc1f00" : "319ad4", "be1b00" : "187eb3", "951500" : "216388", "89a1d9" : "2376a3", "596fa3" : "1b5c7e", "3a4f73" : "174b66" },
+  //CERULEAN 3
+    { "f4907f" : "559fc4", "dc1f00" : "347ea3", "be1b00" : "23617f", "951500" : "18465e", "89a1d9" : "245c78", "596fa3" : "1a475e", "3a4f73" : "113446" },
+	
+  //COBALT 1
+    { "f4907f" : "8dafde", "dc1f00" : "729bd5", "be1b00" : "537fbe", "951500" : "2f5c9b", "89a1d9" : "4875b5", "596fa3" : "2e5a99", "3a4f73" : "1b4074" },	
+  //COBALT 2
+    { "f4907f" : "8cb2e7", "dc1f00" : "437ccb", "be1b00" : "3868ac", "951500" : "294f85", "89a1d9" : "3261a4", "596fa3" : "254a7e", "3a4f73" : "1c3962" },
+  //COBALT 3
+    { "f4907f" : "6684ae", "dc1f00" : "3764a3", "be1b00" : "23497f", "951500" : "15335d", "89a1d9" : "244778", "596fa3" : "17345d", "3a4f73" : "0b2243" },
+
+  //VIOLET 1
+    { "f4907f" : "a9a1e6", "dc1f00" : "9087d4", "be1b00" : "736abd", "951500" : "4f469a", "89a1d9" : "685fb4", "596fa3" : "4e4598", "3a4f73" : "362e73" },
+  //VIOLET 2
+    { "f4907f" : "8478e5", "dc1f00" : "695dca", "be1b00" : "564ca9", "951500" : "403781", "89a1d9" : "4c459d", "596fa3" : "3c337c", "3a4f73" : "2c255d" },
+  //VIOLET 3
+    { "f4907f" : "6d63b8", "dc1f00" : "584ea2", "be1b00" : "3e377e", "951500" : "2b245c", "89a1d9" : "3d3677", "596fa3" : "2c265c", "3a4f73" : "1c1742" },
+
+  //PURPLE 1
+    { "f4907f" : "bd8edd", "dc1f00" : "ad73d3", "be1b00" : "9355bc", "951500" : "6f3099", "89a1d9" : "884ab3", "596fa3" : "6e3097", "3a4f73" : "501d73" },
+  //PURPLE 2
+    { "f4907f" : "b083ce", "dc1f00" : "8a47b6", "be1b00" : "753d9b", "951500" : "5d307b", "89a1d9" : "6a378d", "596fa3" : "5a2f77", "3a4f73" : "47255e" },
+  //PURPLE 3
+    { "f4907f" : "9167ad", "dc1f00" : "7838a1", "be1b00" : "59257d", "951500" : "40165c", "89a1d9" : "562677", "596fa3" : "40185b", "3a4f73" : "2c0c42" },
+	
+  //MAGENTA 1
+    { "f4907f" : "de8cdc", "dc1f00" : "d571d3", "be1b00" : "be53bb", "951500" : "9b2f97", "89a1d9" : "b548b2", "596fa3" : "992e96", "3a4f73" : "741b71" },	
+  //MAGENTA 2
+    { "f4907f" : "d779d5", "dc1f00" : "c539c1", "be1b00" : "a730a4", "951500" : "842682", "89a1d9" : "982b95", "596fa3" : "80257e", "3a4f73" : "661e65" },
+  //MAGENTA 3
+    { "f4907f" : "cd4cc8", "dc1f00" : "af2baa", "be1b00" : "881885", "951500" : "650c63", "89a1d9" : "811a7e", "596fa3" : "640e62", "3a4f73" : "490648" },
+
+  //PINK 1
+    { "f4907f" : "fd8fbf", "dc1f00" : "f96aa9", "be1b00" : "e54389", "951500" : "bb195f", "89a1d9" : "cf377a", "596fa3" : "b8175d", "3a4f73" : "8e033f" },	
+  //PINK 2
+    { "f4907f" : "ed86b1", "dc1f00" : "e25490", "be1b00" : "ca3b77", "951500" : "a31f57", "89a1d9" : "b7326a", "596fa3" : "a01e54", "3a4f73" : "7c0f3d" },
+  //PINK 3
+    { "f4907f" : "e7528b", "dc1f00" : "d0336f", "be1b00" : "a21e52", "951500" : "790f39", "89a1d9" : "99204f", "596fa3" : "781239", "3a4f73" : "570726" }
+	
+
+  ],
+  "hairColor" : [//Hair
+    //BLONDE 1
+    { "d9c189" : "fee9d9", "a38d59" : "e1c7b1", "735e3a" : "b09781" },
+    //BLONDE 2
+    { "d9c189" : "bfa996", "a38d59" : "9c8375", "735e3a" : "776259" },
+    //BLONDE 3
+    { "d9c189" : "847169", "a38d59" : "6d5a57", "735e3a" : "534141" },	
+    //BLONDE 4
+    { "d9c189" : "665455", "a38d59" : "4b393d", "735e3a" : "34262a" },	
+	
+    //SILVER 1
+    { "d9c189" : "dee0ee", "a38d59" : "b2b6c2", "735e3a" : "91949d" },
+    //SILVER 2
+    { "d9c189" : "b0aabd", "a38d59" : "8b8698", "735e3a" : "686673" },	
+    //SILVER 3
+    { "d9c189" : "797a8d", "a38d59" : "626373", "735e3a" : "494a57" },
+	//SILVER 4 
+    { "d9c189" : "55525a", "a38d59" : "3a3840", "735e3a" : "26252b" },
+	
+    //BROWN 1
+    { "d9c189" : "e8a27c", "a38d59" : "c47b65", "735e3a" : "905248" },
+    //BROWN 2
+    { "d9c189" : "d87e56", "a38d59" : "b65b47", "735e3a" : "8f423a" },	
+	//BROWN 3 
+    { "d9c189" : "c95f36", "a38d59" : "aa402f", "735e3a" : "852a27" },
+	//BROWN 4 
+    { "d9c189" : "824837", "a38d59" : "65302a", "735e3a" : "461e1e" },
+
+    //NAT YEL 1
+    { "d9c189" : "ffdea1", "a38d59" : "d7ae85", "735e3a" : "b18c73" },	
+    //NAT YEL 2
+    { "d9c189" : "f3c36b", "a38d59" : "d1985e", "735e3a" : "ad7855" },
+	//NAT YEL 3 
+    { "d9c189" : "d89926", "a38d59" : "b66d22", "735e3a" : "8e4a1d" },
+	//NAT YEL 4 
+    { "d9c189" : "856c47", "a38d59" : "684c35", "735e3a" : "4c3326" },	
+	
+    //RED 1
+    { "d9c189" : "e06767", "a38d59" : "ca4848", "735e3a" : "a72323" },	
+    //RED 2
+    { "d9c189" : "c53939", "a38d59" : "a83131", "735e3a" : "852727" },
+    //RED 3
+    { "d9c189" : "ab2a2a", "a38d59" : "871919", "735e3a" : "640d0d" },
+	
+    //ORANGE 1
+    { "d9c189" : "f79950", "a38d59" : "e37d2f", "735e3a" : "c05a09" },	
+    //ORANGE 2
+    { "d9c189" : "f87108", "a38d59" : "d05c05", "735e3a" : "a14500" },
+    //ORANGE 3
+    { "d9c189" : "cc5d09", "a38d59" : "a04300", "735e3a" : "712f00" },	
+
+    //YELLOW 1
+    { "d9c189" : "f6d250", "a38d59" : "dbb223", "735e3a" : "bf8e0b" },
+    //YELLOW 2
+    { "d9c189" : "e1b12e", "a38d59" : "b48d24", "735e3a" : "8f651c" },
+    //YELLOW 3
+    { "d9c189" : "c8960d", "a38d59" : "9f7400", "735e3a" : "6f4800" },		
+	
+    //LIME 1
+    { "d9c189" : "cde067", "a38d59" : "a7c01d", "735e3a" : "92a723" },		
+    //LIME 2
+    { "d9c189" : "b0cb24", "a38d59" : "93a81a", "735e3a" : "6e7e0e" },
+    //LIME 3
+    { "d9c189" : "96ab2a", "a38d59" : "768719", "735e3a" : "57640d" },	
+	
+    //GREEN 1
+    { "d9c189" : "74d284", "a38d59" : "56bb67", "735e3a" : "329843" },	
+    //GREEN 2
+    { "d9c189" : "49b55b", "a38d59" : "3e9a4d", "735e3a" : "317a3d" },
+    //GREEN 3
+    { "d9c189" : "399d4a", "a38d59" : "257a33", "735e3a" : "165921" },		
+
+    //TEAL 1
+    { "d9c189" : "65f2ec", "a38d59" : "3ad1c8", "735e3a" : "11aaa1" },
+    //TEAL 2
+    { "d9c189" : "2dd1c9", "a38d59" : "23afa7", "735e3a" : "18867f" },
+    //TEAL 3
+    { "d9c189" : "2aaba4", "a38d59" : "198780", "735e3a" : "0d645e" },		
+
+    //CERULEAN 1
+    { "d9c189" : "6dcce6", "a38d59" : "41a8c5", "735e3a" : "2286a2" },
+    //CERULEAN 2
+    { "d9c189" : "319ad4", "a38d59" : "187eb3", "735e3a" : "216388" },
+    //CERULEAN 3
+    { "d9c189" : "347ea3", "a38d59" : "23617f", "735e3a" : "18465e" },		
+
+    //COBALT 1
+    { "d9c189" : "729bd5", "a38d59" : "537fbe", "735e3a" : "2f5c9b" },	
+    //COBALT 2
+    { "d9c189" : "437ccb", "a38d59" : "3868ac", "735e3a" : "294f85" },
+    //COBALT 3
+    { "d9c189" : "3764a3", "a38d59" : "23497f", "735e3a" : "15335d" },		
+
+    //VIOLET 1
+    { "d9c189" : "9087d4", "a38d59" : "736abd", "735e3a" : "4f469a" },	
+    //VIOLET 2
+    { "d9c189" : "695dca", "a38d59" : "564ca9", "735e3a" : "403781" },
+    //VIOLET 3
+    { "d9c189" : "584ea2", "a38d59" : "3e377e", "735e3a" : "2b245c" },		
+	
+    //PURPLE 1
+    { "d9c189" : "ad73d3", "a38d59" : "9355bc", "735e3a" : "6f3099" },
+    //PURPLE 2
+    { "d9c189" : "8a47b6", "a38d59" : "753d9b", "735e3a" : "5d307b" },
+    //PURPLE 3
+    { "d9c189" : "7838a1", "a38d59" : "59257d", "735e3a" : "40165c" },			
+
+    //MAGENTA 1
+    { "d9c189" : "d571d3", "a38d59" : "be53bb", "735e3a" : "9b2f97" },
+    //MAGENTA 2
+    { "d9c189" : "c539c1", "a38d59" : "a730a4", "735e3a" : "842682" },
+    //MAGENTA 3
+    { "d9c189" : "af2baa", "a38d59" : "881885", "735e3a" : "650c63" },		
+
+    //PINK 1
+    { "d9c189" : "f96aa9", "a38d59" : "e54389", "735e3a" : "bb195f" },
+    //PINK 2
+    { "d9c189" : "e25490", "a38d59" : "ca3b77", "735e3a" : "a31f57" },
+    //PINK 3
+    { "d9c189" : "d0336f", "a38d59" : "a21e52", "735e3a" : "790f39" }
+	
+  ]
+}
