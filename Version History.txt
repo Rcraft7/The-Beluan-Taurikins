@@ -1,0 +1,12 @@
+Version History of The Project:
+
+Alpha Build 12_12_2023:
+
+- The Start of the Journey.
+- Initial Project Creation.
+- Crashes when booting the game. (don't download it lol.)
+
+Alpha Build 12_14_2023:
+
+- The Mod finally works without crashing the game.
+- Minor Fixes and Adjustment to the project.
