@@ -1,0 +1,15 @@
+{
+  "itemName" : "beluantaurshipdetails",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "beluantaurshipdetails.png",
+  "description" : "A riveted metal wall.",
+  "shortdescription" : "Metal Railing",
+  "glitchdescription" : "Secure. This metal wall has been reinforced with strong bolts.",
+  "florandescription" : "Ssstrong bolted metal.",
+  "novakiddescription" : "Strong lookin' wall made from metal.",
+
+  "materialId" : 26008,
+  "learnBlueprintsOnPickup" : [ "beluantaurshipdetails" ]
+}

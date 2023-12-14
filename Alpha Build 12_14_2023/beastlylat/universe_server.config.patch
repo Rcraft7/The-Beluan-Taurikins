@@ -1,0 +1,16 @@
+[
+	{ "op" : "add",
+		"path" : "/speciesShips/beluantaur",
+		"value" : [
+		    "/ships/beluantaur/beluantaurt0.structure",
+			"/ships/beluantaur/beluantaurt1.structure",
+			"/ships/beluantaur/beluantaurt2.structure",
+			"/ships/beluantaur/beluantaurt3.structure",
+			"/ships/beluantaur/beluantaurt4.structure",
+			"/ships/beluantaur/beluantaurt5.structure",
+			"/ships/beluantaur/beluantaurt6.structure",
+			"/ships/beluantaur/beluantaurt7.structure",
+			"/ships/beluantaur/beluantaurt8.structure"
+		]
+	}
+]

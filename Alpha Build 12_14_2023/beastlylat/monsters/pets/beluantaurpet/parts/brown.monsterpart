@@ -1,0 +1,8 @@
+{
+  "name" : "brown",
+  "category" : "beluantaurpet",
+  "type" : "body",
+  "frames" : {
+    "body" : "brown.png"
+  }
+}

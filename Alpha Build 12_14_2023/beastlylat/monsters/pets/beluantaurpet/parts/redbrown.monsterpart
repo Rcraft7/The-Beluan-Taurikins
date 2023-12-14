@@ -1,0 +1,8 @@
+{
+  "name" : "redbown",
+  "category" : "beluantaurpet",
+  "type" : "body",
+  "frames" : {
+    "body" : "redbown.png"
+  }
+}

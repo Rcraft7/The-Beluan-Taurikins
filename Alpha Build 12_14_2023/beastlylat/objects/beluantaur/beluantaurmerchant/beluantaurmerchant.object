@@ -1,0 +1,55 @@
+{
+  "objectName" : "beluantaurmerchant",
+  "colonyTags" : ["beluantaur", "commerce"],
+  "rarity" : "Common",
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Frankie's sketchy friend",
+        "subtitle" : "So sketchy"
+      }
+    },
+    "buyFactor" : 1.0,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : "beluantaurlamp1" },		
+      { "item" : "beluantaurbannerlarge" },
+	  { "item" : "beluantaurbannersmall" },
+      { "item" : "beluantaurbed" },
+      { "item" : "beluantaurchair" },
+	  { "item" : "beluantaurdesk" },
+	  { "item" : "beluantaurplant" },	
+	  { "item" : "beluantaurmannequin" },		  
+	  { "item" : "spawnerbeluantaur" }	  
+    ]
+  },
+  "description" : "Frankie's sketchy friend",
+  "shortdescription" : "I wonder where he gets his wares from?",
+  "race" : "beluantaur",
+  "category" : "Merchant",
+  "price" : 1000,
+  
+  "printable" : false,
+  "unbreakable" : false,
+  "apexDescription" : "A silent penguin merchant. Unusual.",
+  "avianDescription" : "Who is this curious merchant?",
+  "floranDescription" : "Floran ssslightly ssscared by sssilent penguin.",
+  "glitchDescription" : "Concerned. This penguin seems unwilling to communicate.",
+  "humanDescription" : "If I kiss it, do you think it'll turn into a prince merchant?",
+  "hylotlDescription" : "This silent creature is not one of us.",
+  "novakidDescription" : "Don't see many penguin merchants round these parts",
+  "beluantaurDescription" : "Cute",
+  "inventoryIcon" : "beluantaurmerchanticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "beluantaurmerchant.png:<color>.<frame>",
+      "imagePosition" : [-14, 0],
+      "frames" : 12,
+      "animationCycle" : 4,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

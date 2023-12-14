@@ -1,0 +1,8 @@
+{
+  "name" : "purple",
+  "category" : "beluantaurpet",
+  "type" : "body",
+  "frames" : {
+    "body" : "purple.png"
+  }
+}
