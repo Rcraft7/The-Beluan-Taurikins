@@ -12,6 +12,7 @@ appearance: anthropomorphic foxes with plantigrade legs, both their fur and hair
 things the project definitley needs
 - 0% suitable racial themed armor sets
 - 0% making functional beluan-taurikin npcs
+- 0% unique dialogs when interacting with npcs
 - 0% npc settlements
 - 0% a custom ship for them
 - 0% their own themed furniture and stuffs present for crafting or their settlements
